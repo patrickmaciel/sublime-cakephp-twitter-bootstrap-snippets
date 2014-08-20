@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+  <?php echo \$this->Form->label('${1:field}', __('${2:label}'), array('class' => 'control-label${3}')) ?>
+  <div class="${4:controls}">
+    <?php echo \$this->Form->input('${1:field}', array('class' => 'form-control input-sm${5}')) ?>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ckformh</tabTrigger>
+	<description>CakePHP Form input</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
